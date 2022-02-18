@@ -1,3 +1,76 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  color: white;
+  font-family: Tahoma , Geneva , Verdana , sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.title {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid 1px gray;
+  border-radius: 10px;
+  margin: 10px 50px;
+  padding: 10px;
+}
+
+.planetasTitle {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid 1px gray;
+  border-radius: 10px;
+  margin: 10px 300px;
+  padding: 10px;
+
+}
+
+.planetas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.planetaCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.image {
+  width: 100px;
+
+}
+
+.image:hover {
+  transition: 1s;
+  width: 150px;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 10px;
+}
+
+.missionsCard {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid 1px gray;
+  border-radius: 10px;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  font-size: 1.5em;
+  justify-content: space-around;
+  padding: 10px 50px;
+  text-align: center;
+}
