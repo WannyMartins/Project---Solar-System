@@ -32,6 +32,7 @@ body {
 }
 
 .planetas {
+  align-items: center;
   display: flex;
   justify-content: space-around;
 }
@@ -40,26 +41,112 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
 
-.image {
+.Mercúrio {
+  width: 30px;
+}
+
+.Vênus {
+  width: 45px;
+}
+
+.Marte {
+  width: 35px;
+}
+
+.Terra {
+  width: 50px;
+}
+
+.Saturno {
   width: 100px;
-
 }
 
-.image:hover {
-  transition: 1s;
+.Júpiter {
   width: 150px;
+}
+
+.Netuno {
+  width: 45px;
+}
+
+.Urano {
+  width: 50px;
+}
+
+.Mercúrio:hover {
+  transition: 1s;
+  width: 100px;
+}
+
+.Vênus:hover {
+  transition: 1s;
+  width: 100px;
+}
+
+.Marte:hover {
+  transition: 1s;
+  width: 100px;
+}
+
+.Terra:hover {
+  transition: 1s;
+  width: 100px;
+}
+
+.Saturno:hover {
+  transition: 1s;
+  width: 200px;
+}
+
+.Júpiter:hover {
+  transition: 1s;
+  width: 300px;
+}
+
+.Netuno:hover {
+  transition: 1s;
+  width: 90px;
+}
+
+.Urano:hover {
+  transition: 1s;
+  width: 100px;
 }
 
 .missions {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
-  justify-content: space-around;
+  gap: 10px 0;
+  justify-content: space-evenly;
   margin: 50px;
-  padding: 10px;
+}
+
+.titleCard {
+  border-bottom: solid 1px gray;
+  font-weight: 900;
+  height: 80px;
+
+  /* margin: auto 0;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  width: 300px; */
+}
+
+.contentCard {
+  font-size: 15px;
+  margin: 0 20px;
+  padding: 0;
+  text-align: start;
+}
+
+.dadosMission {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+  margin: auto 10px;
 }
 
 .missionsCard {
@@ -67,10 +154,8 @@ body {
   border: solid 1px gray;
   border-radius: 10px;
   display: flex;
-  flex: 1 1 0;
   flex-direction: column;
-  font-size: 1.5em;
-  justify-content: space-around;
-  padding: 10px 50px;
-  text-align: center;
+  height: 200px;
+  justify-content: space-evenly;
+  width: 220px;
 }
